@@ -4,7 +4,7 @@ import csv
 import datetime
 
 # Variable used to append the datetimestamp to the output file name
-date = datetime.datetime.now().strftime("%Y%m%d%H%M%S") #If you want in yyyy_mm_dd then add _
+date = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 
 # Variable used for the source file name
 source_file = "budget_data.csv"

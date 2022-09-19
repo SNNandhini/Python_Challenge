@@ -49,7 +49,7 @@ with open(csvpath) as csvfile:
                   f"-------------------------",
                   f"Total Votes: {total_votes}",
                   f"-------------------------"]
-#       From the dictionary, identify each candidate and their corresponding voteas and percentages
+#       From the dictionary, identify each candidate and their corresponding votes and percentages
         for i in sorted(votes_count.keys()):   
             lines2.append(f"{i}: {round((votes_count[i]/total_votes)*100,3)}% ({votes_count[i]})") 
         lines3 = [f"-------------------------",
